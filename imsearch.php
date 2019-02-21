@@ -1,10 +1,9 @@
 <?php require_once("res/x5engine.php"); ?><!DOCTYPE html><!-- HTML5 -->
 <html prefix="og: http://ogp.me/ns#" lang="ru-RU" dir="ltr">
 	<head>
-		<title>Поиск - WEBSITE X5 UNREGISTERED VERSION 12.0.5.22 - klikninet</title>
+		<title>Поиск</title>
 		<meta charset="utf-8" />
 		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
-		<meta name="generator" content="Incomedia WebSite X5 Professional 12.0.5.22 - UNREGISTERED VERSION - www.websitex5.com" />
 		<meta property="og:locale" content="ru-RU" />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="http://klikninet.ru/imsearch.php" />
@@ -15,17 +14,17 @@
 		<meta property="og:image:width" content="60">
 		<meta property="og:image:height" content="60">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="icon" href="favicon.ico?12-0-5-22-636863846482735283" type="image/vnd.microsoft.icon" />
-		<link rel="stylesheet" type="text/css" href="style/reset.css?12-0-5-22" media="screen,print" />
-		<link rel="stylesheet" type="text/css" href="style/print.css?12-0-5-22" media="print" />
-		<link rel="stylesheet" type="text/css" href="style/style.css?12-0-5-22" media="screen,print" />
-		<link rel="stylesheet" type="text/css" href="style/template.css?12-0-5-22" media="screen" />
-		<link rel="stylesheet" type="text/css" href="style/menu.css?12-0-5-22" media="screen" />
-		<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="style/ie.css?12-0-5-22" media="screen" /><![endif]-->
+		<link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
+		<link rel="stylesheet" type="text/css" href="style/reset.css" media="screen,print" />
+		<link rel="stylesheet" type="text/css" href="style/print.css" media="print" />
+		<link rel="stylesheet" type="text/css" href="style/style.css" media="screen,print" />
+		<link rel="stylesheet" type="text/css" href="style/template.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="style/menu.css" media="screen" />
+		<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="style/ie.css" media="screen" /><![endif]-->
 		<link rel="alternate" type="application/rss+xml" title="Новости" href="x5feed.php" />
 		
-		<script type="text/javascript" src="res/jquery.js?12-0-5-22"></script>
-		<script type="text/javascript" src="res/x5engine.js?12-0-5-22" data-files-version="12-0-5-22"></script>
+		<script type="text/javascript" src="res/jquery.js"></script>
+		<script type="text/javascript" src="res/x5engine.js" data-files-version="12-0-5-22"></script>
 		
 		
 		
@@ -39,7 +38,7 @@
 		<div id="imFooterBg"></div>
 		<div id="imPage">
 			<div id="imHeader">
-				<h1 class="imHidden">Поиск - WEBSITE X5 UNREGISTERED VERSION 12.0.5.22 - klikninet</h1>
+				<h1 class="imHidden">Поиск</h1>
 				
 				<div class="imTemplateContent" style="position: absolute; top: 27px; left: 885px; width: 187px; height: 56px; overflow: hidden;"><a href="https://time.is/Moscow" id="time_is_link" rel="nofollow" style="font-size:25px;color:#000000;background:00ffffff">Москва</a>
 
