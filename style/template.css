@@ -1,0 +1,58 @@
+html { position: relative; margin: 0; padding: 0; background-color: #FFFFFF; }
+body { margin: 0; padding: 0; text-align: left; }
+#imPage { margin: 5px auto 5px auto; width: 1080px; position: relative; }
+#imHeaderBg { position: absolute; left: 0; top: 0; height: 120px; width: 100%; background-color: transparent; }
+#imHeader { height: 120px; background-color: transparent; background-image: url('top.png'); background-position: top left; background-repeat: no-repeat; }
+#imMnMn { float: left; width: 100px; padding: 0px 0px 0px 0px; }
+#imMnMn > ul { text-align: left; }
+#imMnMnGraphics { position: absolute; top: 120px; bottom: 70px; left: 0; width: 100px; background-color: transparent; }
+#imContent { min-height: 520px; position: relative; width: 980px; padding: 0px 0px 0px 0px; margin-left: 100px; }
+#imContentGraphics { min-height: 520px; position: absolute; top: 120px; bottom: 70px; right: 0; width: 980px; background-color: #FFFFFF; }
+#imFooterBg { position: absolute; left: 0; bottom: 0; height: 70px; width: 100%; background-color: transparent; }
+#imFooter { position: relative; margin: 0 auto; height: 70px; width: 1080px; background-color: transparent; background-image: url('bottom.png'); background-position: top left; background-repeat: no-repeat; }
+#imFooterResponsiveContent { display: none; }
+@media (max-width: 1079px) {
+	html { background-image: none; background-color: #FFFFFF; }
+	#imPage { padding-top: 40px; margin: 0px auto 0px 0px; }
+	#imHeaderBg { height: 0px; background-image: none; background-color: transparent; }
+	#imHeader { margin-bottom: 0; height: 0px; background-image: none; background-color: transparent; }
+	#imMnMn { position: absolute; top: 0; left: 0; height: 30px; padding: 5px 5px 5px 5px; background-image: none; background-color: transparent; }
+	#imMnMn > ul { text-align: left; }
+	#imMnMnGraphics { display: none; }
+	#imMnMn li { display: inline; }
+	#imContent { min-height: 520px; padding: 0px 0px 0px 0px; margin-left: 0; }
+	#imContentGraphics { min-height: 520px; top: 40px; bottom: 35px; left: 0; background-image: none; background-color: #FFFFFF; }
+	#imFooterBg { height: 35px; width: 100%; background-image: none; background-color: transparent; }
+	#imFooter { min-height: 35px; height: auto; background-image: none; background-color: transparent; }
+	#imFooterResponsiveContent { display: inline-block; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; font: normal normal normal 9pt Tahoma; color: #FFFFFF; background-color: transparent; text-align: left; text-decoration: none; }
+	#imHeaderFlashBackground, #imFooterFlashBackground, .imTemplateContent, #imFooPad, #imBtMn, #imPgMn { display: none; }
+}
+
+@media  (max-width: 1079px) and (min-width: 840px) {
+	#imPage, #imContentGraphics, #imFooter { width: 840px; }
+	#imMnMn { width: 830px; }
+	#imContent { width: 840px; }
+}
+
+@media  (max-width: 839px) and (min-width: 720px) {
+	#imPage, #imContentGraphics, #imFooter { width: 720px; }
+	#imMnMn { width: 710px; }
+	#imContent { width: 720px; }
+}
+
+@media  (max-width: 719px) and (min-width: 480px) {
+	#imPage, #imContentGraphics, #imFooter { width: 480px; }
+	#imMnMn { width: 470px; }
+	#imContent { width: 480px; }
+}
+
+@media  (max-width: 479px) and (min-width: 320px) {
+	#imPage, #imContentGraphics, #imFooter { width: 320px; }
+	#imMnMn { width: 310px; }
+	#imContent { width: 320px; }
+}
+
+@media  (max-width: 319px) {
+	#imPage, #imMnMn, #imContent, #imContentGraphics, #imFooter { box-sizing: border-box; width: 100%; }
+	#imMnMn { height: 40px; }
+}

@@ -1,0 +1,17 @@
+body {position: relative;}
+/* ######################### MENU STYLE #########################*/
+#imPage { z-index: 9000; }
+#imMnMn ul ul li .imMnMnLevelImg { z-index: 10000; float: right; position: relative; top: -14px; left: 0; display: block; width: 7px; height: 7px; background-image: url('../res/imIconMenuLeft.gif'); background-position: center center; margin-right: 0;}
+/* Margin & position fix */
+#imMnMn > ul > li > ul { margin-top: 0px; }
+
+
+/* MENU POSITION : VERTICAL VerticalOneColumn */
+#imContent { width: auto; }
+
+/* level level boxmodel*/
+#imMnMn.auto ul li ul { left: 100px;}
+
+/* Other sub levels*/
+#imMnMn.auto ul li ul li ul /* Level 3 */
+{ margin-top: 0px; }
