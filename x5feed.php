@@ -7,7 +7,6 @@
 		<description><![CDATA[Браузерный майнинг]]></description>
 		<language>RU</language>
 		<lastBuildDate><?php echo getLastAvailableDate(array(1550233500)); ?></lastBuildDate>
-		<generator>Incomedia WebSite X5 Professional</generator>
 <?php if (time() > 1550233500): ?>
 		<item>
 			<title><![CDATA[Майнинг]]></title>
